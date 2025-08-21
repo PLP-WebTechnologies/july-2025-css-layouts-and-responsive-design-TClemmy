@@ -1,0 +1,43 @@
+/*Top tabs*/
+.top_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 20px;
+}
+.top_tabs a{
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+/*Bottom tabs*/
+.bottom_tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: auto;
+    margin-top: auto;
+}
+.bottom_tabs a{
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+/*Main content with grid*/
+.grid_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: beige;
+}
+/*Media Queries*/
+@media (hover: hover){
+    .top_tabs:hover{background-color: lime;}
+    .bottom_tabs:hover{background-color: lime;}
+}
